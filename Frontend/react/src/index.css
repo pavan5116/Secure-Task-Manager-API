@@ -1,0 +1,46 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Full black background */
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+
+  display: flex;
+  justify-content: center;   /* horizontal center */
+  align-items: center;       /* vertical center */
+  min-height: 100vh;
+}
+
+/* Center everything inside root */
+#root {
+  text-align: center;
+  width: 100%;
+}
+
+/* Optional: style inputs slightly */
+input {
+  padding: 8px;
+  margin: 8px 0;
+  background-color: #111;
+  border: 1px solid #444;
+  color: white;
+}
+
+/* Optional: buttons */
+button {
+  padding: 8px 16px;
+  background-color: #222;
+  border: 1px solid #555;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #333;
+}

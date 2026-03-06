@@ -1,0 +1,19 @@
+Django>=4.2
+
+# Django REST framework (DRF)
+djangorestframework>=3.15
+
+# CORS headers for enabling cross-origin requests
+django-cors-headers>=4.0
+
+# JSON Web Tokens and authentication packages
+PyJWT>=2.7
+
+# Simple JWT implementation for DRF
+djangorestframework-simplejwt>=2.0
+
+# Blacklist support for JWT tokens
+django-rest-framework-simplejwt-blacklist>=0.5
+
+# Environment variable management
+python-dotenv>=1.0

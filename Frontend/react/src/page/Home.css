@@ -1,0 +1,76 @@
+.home-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 40px;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.navbar a {
+  color: #ffffff;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+
+.navbar a:hover {
+  color: #ffcc00;
+}
+
+.hero {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #ffffff;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 16px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 24px;
+  max-width: 600px;
+}
+
+.actions {
+  display: flex;
+  gap: 20px;
+}
+
+.actions a {
+  background: #ffffff;
+  color: #333333;
+  padding: 12px 28px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.actions a:hover {
+  background: #f0f0f0;
+  transform: translateY(-2px);
+}
+
+.footer {
+  text-align: center;
+  padding: 12px 0;
+  background: #f8f8f8;
+  font-size: 0.9rem;
+  color: #666666;
+}

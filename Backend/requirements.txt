@@ -1,4 +1,5 @@
 Django>=4.2
+psycopg-binary>=2.9
 
 # Django REST framework (DRF)
 djangorestframework>=3.15
@@ -10,10 +11,8 @@ django-cors-headers>=4.0
 PyJWT>=2.7
 
 # Simple JWT implementation for DRF
+# (includes blacklist support via `rest_framework_simplejwt.token_blacklist`)
 djangorestframework-simplejwt>=2.0
-
-# Blacklist support for JWT tokens
-django-rest-framework-simplejwt-blacklist>=0.5
 
 # Environment variable management
 python-dotenv>=1.0

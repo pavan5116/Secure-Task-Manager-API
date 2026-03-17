@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
-
 echo "Starting server..."
-python manage.py runserver 0.0.0.0:8000
+# Point to where manage.py actually lives
+python Main/manage.py runserver 0.0.0.0:8000

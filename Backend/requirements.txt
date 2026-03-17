@@ -1,5 +1,5 @@
 Django
-psycopg-binary
+psycopg2-binary
 
 # Django REST framework (DRF)
 djangorestframework
